@@ -35,7 +35,7 @@ function onWarning(error) { return handleError.call(this, 'warning', error) }
 
 // compile sass
 gulp.task('sass', ['stylelint'], () => {
-    return gulp.src('src/**/*.scss').
+    return gulp.src('src/scss/style.scss').
         pipe(sass().on('error', onError)).
         pipe(concat('style.css')).
         pipe(gulp.dest('')).
