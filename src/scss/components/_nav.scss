@@ -1,5 +1,14 @@
-nav {
+.logo {
+  width: 20px;
+  height: 150px;
+  padding-left: -10px;
+}
+
+.nav {
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .scale-to-grid {
@@ -26,5 +35,12 @@ li {
 
 a {
   text-decoration: none;
-  color: $heading-color;
+  color: $black;
+  margin-top: 50px;
+}
+
+a:hover {
+  font-style: italic;
+  text-decoration: none;
+  color: $lightgrey;
 }
