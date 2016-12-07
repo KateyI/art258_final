@@ -1,40 +1,31 @@
-.shop-button {
-  background-color: $black;
-  padding: 20px;
-  color: $white;
+@mixin button($color: black, $size: 20px) {
+  background-color: $color;
+  padding: $size;
   text-decoration: none;
-  align-self: center;
   position: relative;
+}
+
+.shop-button {
+  @include button(black, 20px)
+    color: $white;
 }
 
 .shop-button a:hover {
-  background-color: none;
-  padding: 20px;
-  color: $black;
-  text-decoration: none;
-  align-self: center;
-  position: relative;
+  @include button(white, 20px)
+    color: $black;
 }
 
 .write-button {
-  background-color: $white;
-  padding: 20px;
-  color: $black;
-  text-decoration: none;
-  position: relative;
+  @include button(white, 20px)
+    color: $black;
 }
 
 .write-button:active {
-  background-color: $black;
-  padding: 20px;
-  color: $white;
-  text-decoration: none;
+  @include button(black, 20px)
+    color: $white;
 }
 
 .inspire-button {
-  background-color: $black;
-  padding: 20px;
-  color: $white;
-  text-decoration: none;
-  position: relative;
+  @include button(black, 20px)
+    color: $white;
 }
