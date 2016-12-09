@@ -2,30 +2,37 @@
   background-color: $color;
   padding: $size;
   text-decoration: none;
-  position: relative;
+  position: absolute;
 }
 
 .shop-button {
-  @include button(black, 20px)
-    color: $white;
+  @include button(black, 20px);
+
+  color: $white;
+  left: 210px;
+  top: 280px;
 }
 
 .shop-button a:hover {
-  @include button(white, 20px)
-    color: $black;
+  @include button(white, 20px);
+
+  color: $black;
 }
 
 .write-button {
-  @include button(white, 20px)
-    color: $black;
+  @include button(white, 20px);
+
+  color: $black;
 }
 
 .write-button:active {
-  @include button(black, 20px)
-    color: $white;
+  @include button(black, 20px);
+
+  color: $white;
 }
 
 .inspire-button {
-  @include button(black, 20px)
-    color: $white;
+  @include button(black, 20px);
+
+  color: $white;
 }
