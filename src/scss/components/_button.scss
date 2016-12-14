@@ -13,7 +13,7 @@
   top: 280px;
 }
 
-.shop-button a:hover {
+.shop-button:hover {
   @include button(white, 20px);
 
   color: $black;
