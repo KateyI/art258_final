@@ -4,5 +4,11 @@
   top: 300px;
   left: 250px;
   font-size: 5rem;
-  color: $purple;
+  color: $black;
+}
+
+.active {
+  color: $mint;
+  font-weight: bold;
+  text-decoration: underline overline;
 }
