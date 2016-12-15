@@ -32,13 +32,13 @@
   color: $white;
 }
 
-.inspire-button {
+.quotes-button {
   @include button(black, 20px);
 
   color: $white;
 }
 
-.inspire-button:hover {
+.quotes-button:hover {
   @include button($sea, 20px);
 
   color: $black;
