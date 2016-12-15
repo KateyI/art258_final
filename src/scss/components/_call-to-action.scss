@@ -2,3 +2,17 @@
   position: relative;
   z-index: -4;
 }
+
+.company-name {
+  color: $black;
+  position: absolute;
+  top: 280px;
+  left: 160px;
+}
+
+.tagline {
+  color: $black;
+  position: absolute;
+  top: 310px;
+  left: 110px;
+}

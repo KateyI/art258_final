@@ -10,7 +10,7 @@
 
   color: $white;
   left: 210px;
-  top: 280px;
+  top: 320px;
 }
 
 .shop-button:hover {
@@ -20,12 +20,13 @@
 }
 
 .write-button {
-  @include button(white, 20px);
+  @include button($sea, 20px);
 
   color: $black;
+  left: 210px;
 }
 
-.write-button:active {
+.write-button:hover {
   @include button(black, 20px);
 
   color: $white;
@@ -35,4 +36,10 @@
   @include button(black, 20px);
 
   color: $white;
+}
+
+.inspire-button:hover {
+  @include button($sea, 20px);
+
+  color: $black;
 }
